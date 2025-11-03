@@ -10,7 +10,9 @@ public class deciToBin {
             String binary = "";
 
             while (n > 0){
+            // while (n != 0){
                 int rem = n % 2;
+                // int rem = n & 1;
                 binary = rem + binary;
                 n = n/2;
             }
